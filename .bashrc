@@ -31,3 +31,6 @@ alias ls='ls --color=auto'
 alias fetch='fastfetch'
 alias myapps='pacman -Qe'               # List installed apps
 alias ff='fastfetch | lolcat'
+
+# --- Scripts ---
+export PATH="$HOME/.local/bin:$PATH"
