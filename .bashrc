@@ -24,6 +24,8 @@ alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # Cleans up "orphan" packages
 alias rb=""'source ~/.bashrc' && echo 'Reloaded Bashrc!'"" # Reloads bash lol
 alias eb='micro ~/.bashrc'
 alias gitsave='git add . && git commit -m "Abyss Update: $(date +%F_%T)" && git push'
+alias gitrestore='git fetch origin && git reset --hard origin/main'
+alias gitundo='git checkout .'
 
 # --- Navigation & Utilities ---
 alias ..='cd ..'
