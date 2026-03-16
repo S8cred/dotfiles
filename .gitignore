@@ -1,0 +1,16 @@
+# Ignore everything by default
+/*
+
+# But DO NOT ignore these specific things
+!/.config/
+!/.bashrc
+!/.gitignore
+
+# Inside .config, ignore everything...
+/.config/*
+
+# ...EXCEPT your riced folders
+!/.config/hypr/
+!/.config/waybar/
+!/.config/kitty/
+!/.config/fastfetch/
