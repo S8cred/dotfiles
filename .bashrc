@@ -21,8 +21,9 @@ alias bashconf='micro ~/.bashrc'
 alias update='sudo pacman -Syu'
 alias yayup='yay -Syu'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # Cleans up "orphan" packages
-alias rb='source ~/.bashrc' # Reloads bash lol
+alias rb=""'source ~/.bashrc' && echo 'Reloaded Bashrc!'"" # Reloads bash lol
 alias eb='micro ~/.bashrc'
+alias gitsave='git add . && git commit -m "Abyss Update: $(date +%F_%T)" && git push'
 
 # --- Navigation & Utilities ---
 alias ..='cd ..'
