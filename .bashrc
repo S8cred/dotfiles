@@ -36,3 +36,4 @@ alias ff='fastfetch | lolcat'
 
 # --- Scripts ---
 export PATH="$HOME/.local/bin:$PATH"
+export MICRO_TRUECOLOR=1
