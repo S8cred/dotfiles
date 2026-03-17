@@ -131,3 +131,26 @@ tooltip label {
   padding: 5px;
   background-color: #131822;
 }
+
+#bluetooth,
+#bluetooth.discoverable,
+#bluetooth.discovering,
+#bluetooth.pairable,
+#bluetooth.connected {
+  border-radius: 4px;
+  margin: 6px 3px;
+  padding: 6px 12px;
+  background-color: #89b4fa; /* Light Blue (Catppuccin Blue) */
+  color: #181825;           /* Matching the dark icon color of your other modules */
+}
+
+/* Optional: Keep it slightly different when disabled so you know it's off */
+#bluetooth.disabled {
+  background-color: #1e1e2e; /* Matches your default background */
+  color: #585b70;           /* Dimmer text color */
+}
+
+/* Adjusting padding-right if you need extra space for the icon */
+#bluetooth {
+  padding-right: 15px;
+}

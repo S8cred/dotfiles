@@ -19,6 +19,7 @@ alias bashconf='micro ~/.bashrc'
 
 # --- Maintenance ---
 alias update='sudo pacman -Syu'
+alias install='sudo pacman -S '
 alias yayup='yay -Syu'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # Cleans up "orphan" packages
 alias rb='source ~/.bashrc' # Reloads bash lol
