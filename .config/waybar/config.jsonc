@@ -8,7 +8,10 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "clock"
+        "clock": {
+            "format": "{:%H:%M}",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        }
     ],
     "modules-right": [
         "tray",
